@@ -1,1 +1,55 @@
 Javascript
+
+there r 2 Datatypes in js: Primitive and Non-Primitive
+
+Primitive / value type
+string: represent sequence of character "" or '' or `${}`
+number: define both integer and floating point number
+boolean: represent logical entity= true false
+undefined: represent a variable that has been declared but not yet assigned a value
+its a keyword in js
+js pull automatically undefined if not defined
+null: it represent intentional absence of any object value
+bigint
+symbol: represent unique identifier
+
+Non-Primitive / Object types / reference type
+
+Object: collection of key-value pairs where values can be primitives or other objects
+Array
+Function
+
+Knowing numbers and strings in js
+
+7 = number
+8.9 = number
+'hello' = string
+"hello" = string
+`hello` = string
+'100' = string
+string => number use: + or parseInt()
++'100' = number
+-'100' = number
+parseInt('100') = number
+parseInt('100abdh') = number
++'kavya' = NaN
+parseInt('hsabdh') = NaN
+number => string use: 5 + '' or '' +
+8 + '' = '8'
+'abc'+ 8 = 'abc8'
+boolean
+true = true
+false = false
+typeof true = boolean
+convert boolean to number
++true = 1
++false = 0
+null = null
++undefined = Nan: number converted but not a valid number
++null = 0
+parseInt(undefined) = Nan
+parseInt(null) = Nan
+'undefined' = 'undefined'
+undefined + '' = 'undefined'
+typeof null = object
+typeof undefined = undefined
