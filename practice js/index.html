@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        h1{
+    background-color: rgb(195, 227, 88);
+    text-align: center;
+    color: rgb(70, 104, 135);
+    
+    }
+    *{
+        font-family: cursive;
+    }
+    </style> -->
+
+    <script src="script.js" defer></script>
+    <!-- <script>
+        console.log('radha krishna');
+    </script> -->
+</head>
+<body>
+    <h1>there r 2 Datatypes in js: Primitive and Non-Primitive</h1>
+    <h2>Primitive / value type</h2>
+    <ol>
+        <li>string: represent sequence of character "" or '' or `${}`</li>
+        <li>number: define both integer and floating point number</li>
+        <li>boolean: represent logical entity= true false</li>
+        <li>undefined: represent a variable that has been declared but not yet assigned a value<br>its a keyword in js<br>js pull automatically undefined if not defined</li>
+        <li>null: it represent intentional absence of any object value</li>
+        <li>bigint</li>
+        <li>symbol: represent unique identifier</li>
+    </ol>
+
+    <h2>Non-Primitive / Object types / reference type</h2>
+    <ol>
+        <li>Object: collection of key-value pairs where values can be primitives or other objects</li>
+        <ul>
+            <li>Array</li>
+            <li></li>
+        </ul>
+        <li>Function</li>
+    </ol>
+
+    <h1>Knowing numbers and strings in js</h1>
+    <ul>
+<li>7 = number</li>
+ <li>8.9 = number</li> 
+ <li>'hello' = string</li>
+ <li>"hello" = string</li> 
+ <li>`hello` = string</li>  
+ <li>'100' = string</li>
+ <h5>string => number use: + or parseInt()</h5>
+ <li>+'100' = number</li>
+ <li>-'100' = number</li>
+ <li>parseInt('100') = number</li>
+ <li>parseInt('100abdh') = number</li>
+ <li>+'kavya' = NaN</li>
+ <li>parseInt('hsabdh') = NaN</li>
+ <h5>number => string use: 5 + '' or '' + </h5>
+ <li>8 + '' = '8' </li>
+ <li>'abc'+ 8 = 'abc8'</li>
+ <h5>boolean</h5>
+ <li>true = true</li>
+ <li>false = false</li>
+ <li>typeof true = boolean</li>
+ <h5>convert boolean to number</h5>
+ <li>+true = 1</li>
+ <li>+false = 0</li>
+ <li>null = null</li>
+ <li>+undefined = Nan: number converted but not a valid number</li>
+ <li>+null = 0</li>
+ <li>parseInt(undefined) = Nan</li>
+ <li>parseInt(null) = Nan</li>
+ <li>'undefined' = 'undefined'</li>
+ <li>undefined + '' = 'undefined'</li>
+ <li>typeof null = object</li>
+ <li>typeof undefined = undefined</li>
+ <li>[1]+[1] = string ans = 11</li>
+ <li>[-1]+[-1] = string ans = -1-1</li>
+ </ul>
+
+ <h1>Variable:variable is just a name of storage location</h1>
+ <ol>
+    <h5>names in 3 ways</h5>
+    <li>let keyword: can change the value or variables declared with let can be reassigned a new values = mutable<br>block scope(accessible within the block i.e {})<br>allow initialization without requiring an initial value at the time of declaration ex: let x;</li>
+
+    <li>const keyword: cannot change the value or variables declared with const cant be reassigned after declaration<br> block scope(accessible within the block i.e {})<br> requires an initial value during declaration and once assigned this value can't be changed</li>
+
+    <li>var keyword: is global scoped/ func scoped <br> can be reassigned<br>allow initialization without requiring an initial value at the time of declaration ex: let x;</li>
+
+    <h5>note:return value of variable is undefined for string value when typed in console</h5>
+    <code>let userName = 'Radha'</code>
+    <h5>common naming conventions for variable in js: code readability shows how code used based on their usage and scope within codebase</h5>
+    <ul>
+        <li>camelCase: starts with lower case letter and each new word begins with a capital letter ex:firstName, totalAmount, isLoggedIn</li>
+
+        <li>PascalCase / (UpperCamelCase): starts with uppercase letter used for mainly constructor function, classes ex:Person, CustomerOrder,EmployeeDetails</li>
+
+        <li>snake_case: lowercase with under scores _ ex: user_name, total_amount, is_logged_in</li>
+
+        <li>kebab-case: lowercase with hyphens -used in file-name,urls,css class names, data attributes in html</li>
+    
+    </ul>
+</ol>
+        <code>let userName = 'Kavya shree'</code><br>
+        <code>let userIntro = 'I am a software developer'</code><br>
+        <code>let age = 25</code><br>
+        <code>let isHappy = true</code><br>
+        <code>newUserName = userName</code><br>
+        <code>detailsOfUser = userIntro + 'working at xyz company' +' ' +  'my name is ' +' '+ userName</code><br>
+        <code>let firstName = 'Radha'</code>
+        <code>'let lastName = 'krishna'</code>
+        <code>fullName = 'My fullName is' + ' '+ firstName + lastName</code>
+        <code>let a = undefined</code>
+        <code> let b</code>
+        <h3>note: a console=> undefined<br>b console=> undefined</h3>
+     <h3>same variable name can be changed</h3>
+     <code>let myName = 'krutika'
+    </code>
+     <code>myName = 'kavya'
+    </code>
+
+     <code>let colorLike = 'Black'</code>
+     <code> colorLike = 188</code><br>
+     <h5>console=> typeof colorLike=> number</h5><br>
+     <code></code>
+     <code></code>
+
+ 
+  
+</body>
+</html>
